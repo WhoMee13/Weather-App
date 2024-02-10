@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App | Nishith Shrestha</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="./Nishith_Shrestha_2408299.css">
+    <link rel="shortcut icon" href="https://cdn2.iconfinder.com/data/icons/weather-365/64/weather-sun-cloud-rain-512.png" type="image/x-icon">
+</head>
+<body>
+    <div class="popup-container">
+        <div class="popup-close">&times;</div>
+        <div class="previous-city">--</div>
+        <div class="popup-box">
+        </div>
+    </div>
+    <div class="errorCard"><i class="material-icons">error</i>Invalid City Name!</div>
+    <div class="searchSec">
+        <div class="searchContainer">
+            <input type="text" id="searchBar" placeholder="Enter city Name ...">
+            <span id="searchBtn" class="material-icons">search</span>
+        </div>    
+    </div>      
+    <div class="weatherSec1">
+        <div class="weatherInfo">
+            <div class="top">
+                <div class="displayCity"><span class="material-icons">my_location</span><span id="cityName">--</span></div>
+                <div class="weatherType">--</div>
+            </div>
+            <div class="bottom">
+                <div class="weatherTemp">--&deg;C</div>
+                <div class="time">
+                    ---- | -- --- ---
+                </div>
+            </div> 
+        </div>
+        <img alt="weather icon" id="main-icon" src="">
+    </div>
+    <div class="weatherSec2">
+        <div class="windSpeed"><span class="material-icons">speed</span><span class="windSpeedValue">-.-km/h</span></div>
+        <div class="pressure">
+            <span class="material-icons">compress</span>
+            <span class="pressureValue">--mbar</span>
+        </div>
+        <div class="humidity">  
+            <span class="material-icons">water_drop</span>
+            <span class="humidityValue">--%</span>
+        </div>
+    </div>
+    <button class="popup-open">view 7 days data</button>
+
+    <footer>
+        &copy; Copyright by Nishith Shrestha | university code: 2408299
+    </footer>
+    <script src="./Nishith_Shrestha_2408299.js" defer></script>
+</body>
+</html>
